@@ -15,10 +15,6 @@ from langchain.chains import RetrievalQA
 from constants import CHROMA_SETTINGS
 from streamlit_chat import message
 
-# Replace the old import statement
-from pydantic import BaseSettings
-
-# With the new import statement
 from pydantic_settings import BaseSettings
 
 
