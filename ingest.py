@@ -1,3 +1,8 @@
+# Replace the old import statement
+from pydantic import BaseSettings
+
+# With the new import statement
+from pydantic_settings import BaseSettings
 from langchain.document_loaders import PyPDFLoader, DirectoryLoader, PDFMinerLoader 
 from langchain.text_splitter import RecursiveCharacterTextSplitter 
 from langchain.embeddings import SentenceTransformerEmbeddings 
